@@ -79,7 +79,7 @@ function App() {
                       className="mr-2"
                       onClick={() => completeTodo(index)}
                     >
-                      {todo.complete ? "完了" : "未完了"}
+                      {todo.complete ? "登録" : "未登録"}
                     </Button>
                     <Button color="danger" onClick={() => removeTodo(index)}>
                       消す
