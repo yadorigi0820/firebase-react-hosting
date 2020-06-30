@@ -82,7 +82,7 @@ function App() {
                       {todo.complete ? "完了" : "未完了"}
                     </Button>
                     <Button color="danger" onClick={() => removeTodo(index)}>
-                      削除
+                      消す
                     </Button>
                   </td>
                 </tr>
